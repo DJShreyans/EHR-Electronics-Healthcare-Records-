@@ -56,8 +56,6 @@ The main goal was to create a healthcare platform where records can be stored an
 
 * [IPFS Kubo](https://dist.ipfs.tech/#go-ipfs)
 
-  - configure ipfs refer: https://github.com/shamil-t/ehr-blockchain/issues/15#issuecomment-1333342345
-
 4.Add Metamask Extension in Browser
 
 * [Metamask Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en-US)
