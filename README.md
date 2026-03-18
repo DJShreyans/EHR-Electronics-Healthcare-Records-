@@ -44,21 +44,49 @@ The main goal was to create a healthcare platform where records can be stored an
 
 ## Requirements
 
-Before running this project, make sure the following are installed:
+1.Install nodeJs
 
-1. **Node.js**  
-   Download: [Node.js](https://nodejs.org/)
+* [Node JS](https://nodejs.org/en/download/)
 
-2. **Ganache**  
-   Download: [Ganache](https://trufflesuite.com/ganache/)
+2.Install Ganache
 
-3. **IPFS (Kubo)**  
-   Download: [IPFS Kubo](https://docs.ipfs.tech/install/command-line/)
+* [Ganache Truffle](https://www.trufflesuite.com/ganache)
 
-4. **MetaMask Extension**  
-   Download: [MetaMask for Chrome](https://metamask.io/download/)
+3. Download IPFS (kubo)
 
-5. **Truffle**
-   Install globally using:
-   ```bash
-   npm install -g truffle
+* [IPFS Kubo](https://dist.ipfs.tech/#go-ipfs)
+
+  - configure ipfs refer: https://github.com/shamil-t/ehr-blockchain/issues/15#issuecomment-1333342345
+
+4.Add Metamask Extension in Browser
+
+* [Metamask Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en-US)
+
+5. open cmd in project directory
+
+```
+npm install --force
+```
+
+5.open cmd/terminal as Administrator and type
+
+```
+npm install -g truffle
+```
+
+6.open Ganache
+ 
+ *  New Workspace
+ *  AddProject
+ *  Select truffle-config.js in Project Directory
+ *  Save Workspace
+
+7.Compile and migrate Contracts
+ ```
+ truffle migrate
+ ```
+8. Run Server
+
+```
+npm start
+```
