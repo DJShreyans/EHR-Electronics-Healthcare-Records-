@@ -37,9 +37,19 @@ This project was built collaboratively by:
 
 ## Project Background
 
-This project was completed during the **final year of our Polytechnic/Diploma** as a team project.  
-The main goal was to create a healthcare platform where records can be stored and accessed in a more secure and transparent way using blockchain technology.
+The healthcare industry is rapidly moving towards digital transformation, yet many systems still rely on fragmented, centralized, and insecure methods of storing patient records. Traditional Electronic Health Record (EHR) systems often suffer from issues such as data breaches, lack of interoperability, limited patient control, and dependency on centralized authorities.
 
+To address these challenges, **EHR 2.0** was developed as a next-generation healthcare record management system that integrates modern web technologies with blockchain and decentralized storage solutions.
+
+The core idea behind this project is to enhance **data security, transparency, and accessibility** while ensuring that sensitive medical information remains tamper-proof and trustworthy. By leveraging **blockchain technology (Ethereum)**, the system ensures that once records are stored, they cannot be altered without proper authorization, thereby maintaining data integrity.
+
+Additionally, the project utilizes **IPFS (InterPlanetary File System)** for decentralized file storage, allowing large medical files such as reports and PDFs to be stored securely and efficiently without relying on centralized servers. This reduces the risk of data loss and improves system scalability.
+
+The integration of **MetaMask** enables secure user authentication and interaction with blockchain smart contracts, ensuring that only authorized users (patients, doctors, or administrators) can access or modify records.
+
+This project was developed during the final year of our diploma/polytechnic as a team effort, with the objective of exploring real-world applications of blockchain in healthcare. It reflects our attempt to solve critical problems in medical data management by combining concepts from web development, distributed systems, and cybersecurity.
+
+Overall, EHR 2.0 represents a step towards building a more **secure, decentralized, and patient-centric healthcare ecosystem**.
 ---
 
 ## Requirements
